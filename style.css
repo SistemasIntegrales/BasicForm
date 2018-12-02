@@ -1,0 +1,55 @@
+/*h1, h2, h3, h4, h5, h6, p, */.form-control, option, button {
+  font-family: 'Open Sans';
+}
+h1, h2, h3, h4, h5, h6, strong, a {
+  color: #0A548B;
+}
+/**********
+*** FORM ***
+ **********/
+/* Apartado en general */
+.apartadoForm {
+  padding-top: 1rem;
+  background-color: #FAFAFA;
+}
+.apartadoForm h4 {
+  margin-bottom: 0.7rem;
+}
+
+/* Inputs forms */
+.form-control {
+  backgroud-color: #FAFAFA !important;
+  color: #0A548B;/*4D4D4D;*/
+  border: 1px solid black;
+}
+.form-control:focus {
+  color: #0A5488;
+}
+
+.form-control, button {
+  font-size: 15px;
+}
+.form-control::placeholder {
+  color: #4D4D4D;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #4D4D4D;
+}
+.form-control::-ms-input-placeholder {
+  color: #4D4D4D;
+}
+.form-control::-webkit-input-placeholder {
+  color: #4D4D4D;
+}
+.form-control::-moz-placeholder {
+  color: #4D4D4D;
+}
+.form-control:-moz-placeholder {
+  color: #4D4D4D;
+}
+/* Boton enviar */
+#enviar_correo_contacto {
+ background-color: #0A548B;
+ color: #FFFFFF;
+}
